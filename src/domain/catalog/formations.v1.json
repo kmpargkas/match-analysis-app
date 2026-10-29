@@ -1,0 +1,245 @@
+{
+  "version": 1,
+  "formations": [
+    {
+      "id": "4-4-2", "format": "11v11", "labels": { "en": "4-4-2" },
+      "slots": [
+        { "id": "GK", "position": "GK", "x": 6, "y": 50 },
+        { "id": "RB", "position": "RB", "x": 24, "y": 84 },
+        { "id": "RCB", "position": "CB", "x": 21, "y": 62 },
+        { "id": "LCB", "position": "CB", "x": 21, "y": 38 },
+        { "id": "LB", "position": "LB", "x": 24, "y": 16 },
+        { "id": "RM", "position": "RM", "x": 56, "y": 86 },
+        { "id": "RCM", "position": "CM", "x": 50, "y": 62 },
+        { "id": "LCM", "position": "CM", "x": 50, "y": 38 },
+        { "id": "LM", "position": "LM", "x": 56, "y": 14 },
+        { "id": "RST", "position": "ST", "x": 84, "y": 64 },
+        { "id": "LST", "position": "ST", "x": 84, "y": 36 }
+      ]
+    },
+    {
+      "id": "4-3-3", "format": "11v11", "labels": { "en": "4-3-3" },
+      "slots": [
+        { "id": "GK", "position": "GK", "x": 6, "y": 50 },
+        { "id": "RB", "position": "RB", "x": 24, "y": 84 },
+        { "id": "RCB", "position": "CB", "x": 21, "y": 62 },
+        { "id": "LCB", "position": "CB", "x": 21, "y": 38 },
+        { "id": "LB", "position": "LB", "x": 24, "y": 16 },
+        { "id": "DM", "position": "DM", "x": 38, "y": 50 },
+        { "id": "RCM", "position": "CM", "x": 54, "y": 68 },
+        { "id": "LCM", "position": "CM", "x": 54, "y": 32 },
+        { "id": "RW", "position": "RW", "x": 78, "y": 82 },
+        { "id": "ST", "position": "ST", "x": 86, "y": 50 },
+        { "id": "LW", "position": "LW", "x": 78, "y": 18 }
+      ]
+    },
+    {
+      "id": "4-2-3-1", "format": "11v11", "labels": { "en": "4-2-3-1" },
+      "slots": [
+        { "id": "GK", "position": "GK", "x": 6, "y": 50 },
+        { "id": "RB", "position": "RB", "x": 24, "y": 84 },
+        { "id": "RCB", "position": "CB", "x": 21, "y": 62 },
+        { "id": "LCB", "position": "CB", "x": 21, "y": 38 },
+        { "id": "LB", "position": "LB", "x": 24, "y": 16 },
+        { "id": "RDM", "position": "DM", "x": 40, "y": 64 },
+        { "id": "LDM", "position": "DM", "x": 40, "y": 36 },
+        { "id": "RW", "position": "RW", "x": 70, "y": 82 },
+        { "id": "AM", "position": "AM", "x": 66, "y": 50 },
+        { "id": "LW", "position": "LW", "x": 70, "y": 18 },
+        { "id": "ST", "position": "ST", "x": 86, "y": 50 }
+      ]
+    },
+    {
+      "id": "4-1-4-1", "format": "11v11", "labels": { "en": "4-1-4-1" },
+      "slots": [
+        { "id": "GK", "position": "GK", "x": 6, "y": 50 },
+        { "id": "RB", "position": "RB", "x": 24, "y": 84 },
+        { "id": "RCB", "position": "CB", "x": 21, "y": 62 },
+        { "id": "LCB", "position": "CB", "x": 21, "y": 38 },
+        { "id": "LB", "position": "LB", "x": 24, "y": 16 },
+        { "id": "DM", "position": "DM", "x": 38, "y": 50 },
+        { "id": "RM", "position": "RM", "x": 58, "y": 86 },
+        { "id": "RCM", "position": "CM", "x": 56, "y": 64 },
+        { "id": "LCM", "position": "CM", "x": 56, "y": 36 },
+        { "id": "LM", "position": "LM", "x": 58, "y": 14 },
+        { "id": "ST", "position": "ST", "x": 86, "y": 50 }
+      ]
+    },
+    {
+      "id": "4-1-2-1-2", "format": "11v11", "labels": { "en": "4-1-2-1-2 (diamond)" },
+      "slots": [
+        { "id": "GK", "position": "GK", "x": 6, "y": 50 },
+        { "id": "RB", "position": "RB", "x": 24, "y": 84 },
+        { "id": "RCB", "position": "CB", "x": 21, "y": 62 },
+        { "id": "LCB", "position": "CB", "x": 21, "y": 38 },
+        { "id": "LB", "position": "LB", "x": 24, "y": 16 },
+        { "id": "DM", "position": "DM", "x": 38, "y": 50 },
+        { "id": "RCM", "position": "CM", "x": 52, "y": 68 },
+        { "id": "LCM", "position": "CM", "x": 52, "y": 32 },
+        { "id": "AM", "position": "AM", "x": 66, "y": 50 },
+        { "id": "RST", "position": "ST", "x": 84, "y": 64 },
+        { "id": "LST", "position": "ST", "x": 84, "y": 36 }
+      ]
+    },
+    {
+      "id": "4-4-1-1", "format": "11v11", "labels": { "en": "4-4-1-1" },
+      "slots": [
+        { "id": "GK", "position": "GK", "x": 6, "y": 50 },
+        { "id": "RB", "position": "RB", "x": 24, "y": 84 },
+        { "id": "RCB", "position": "CB", "x": 21, "y": 62 },
+        { "id": "LCB", "position": "CB", "x": 21, "y": 38 },
+        { "id": "LB", "position": "LB", "x": 24, "y": 16 },
+        { "id": "RM", "position": "RM", "x": 56, "y": 86 },
+        { "id": "RCM", "position": "CM", "x": 50, "y": 62 },
+        { "id": "LCM", "position": "CM", "x": 50, "y": 38 },
+        { "id": "LM", "position": "LM", "x": 56, "y": 14 },
+        { "id": "AM", "position": "AM", "x": 70, "y": 50 },
+        { "id": "ST", "position": "ST", "x": 87, "y": 50 }
+      ]
+    },
+    {
+      "id": "4-3-1-2", "format": "11v11", "labels": { "en": "4-3-1-2" },
+      "slots": [
+        { "id": "GK", "position": "GK", "x": 6, "y": 50 },
+        { "id": "RB", "position": "RB", "x": 24, "y": 84 },
+        { "id": "RCB", "position": "CB", "x": 21, "y": 62 },
+        { "id": "LCB", "position": "CB", "x": 21, "y": 38 },
+        { "id": "LB", "position": "LB", "x": 24, "y": 16 },
+        { "id": "RCM", "position": "CM", "x": 50, "y": 72 },
+        { "id": "CM", "position": "CM", "x": 44, "y": 50 },
+        { "id": "LCM", "position": "CM", "x": 50, "y": 28 },
+        { "id": "AM", "position": "AM", "x": 66, "y": 50 },
+        { "id": "RST", "position": "ST", "x": 84, "y": 64 },
+        { "id": "LST", "position": "ST", "x": 84, "y": 36 }
+      ]
+    },
+    {
+      "id": "4-3-2-1", "format": "11v11", "labels": { "en": "4-3-2-1" },
+      "slots": [
+        { "id": "GK", "position": "GK", "x": 6, "y": 50 },
+        { "id": "RB", "position": "RB", "x": 24, "y": 84 },
+        { "id": "RCB", "position": "CB", "x": 21, "y": 62 },
+        { "id": "LCB", "position": "CB", "x": 21, "y": 38 },
+        { "id": "LB", "position": "LB", "x": 24, "y": 16 },
+        { "id": "RCM", "position": "CM", "x": 50, "y": 72 },
+        { "id": "CM", "position": "CM", "x": 44, "y": 50 },
+        { "id": "LCM", "position": "CM", "x": 50, "y": 28 },
+        { "id": "RAM", "position": "AM", "x": 70, "y": 66 },
+        { "id": "LAM", "position": "AM", "x": 70, "y": 34 },
+        { "id": "ST", "position": "ST", "x": 87, "y": 50 }
+      ]
+    },
+    {
+      "id": "4-5-1", "format": "11v11", "labels": { "en": "4-5-1" },
+      "slots": [
+        { "id": "GK", "position": "GK", "x": 6, "y": 50 },
+        { "id": "RB", "position": "RB", "x": 24, "y": 84 },
+        { "id": "RCB", "position": "CB", "x": 21, "y": 62 },
+        { "id": "LCB", "position": "CB", "x": 21, "y": 38 },
+        { "id": "LB", "position": "LB", "x": 24, "y": 16 },
+        { "id": "RM", "position": "RM", "x": 58, "y": 88 },
+        { "id": "RCM", "position": "CM", "x": 52, "y": 68 },
+        { "id": "CM", "position": "CM", "x": 46, "y": 50 },
+        { "id": "LCM", "position": "CM", "x": 52, "y": 32 },
+        { "id": "LM", "position": "LM", "x": 58, "y": 12 },
+        { "id": "ST", "position": "ST", "x": 86, "y": 50 }
+      ]
+    },
+    {
+      "id": "3-5-2", "format": "11v11", "labels": { "en": "3-5-2" },
+      "slots": [
+        { "id": "GK", "position": "GK", "x": 6, "y": 50 },
+        { "id": "RCB", "position": "CB", "x": 22, "y": 72 },
+        { "id": "CB", "position": "CB", "x": 20, "y": 50 },
+        { "id": "LCB", "position": "CB", "x": 22, "y": 28 },
+        { "id": "RWB", "position": "RWB", "x": 48, "y": 88 },
+        { "id": "RCM", "position": "CM", "x": 54, "y": 66 },
+        { "id": "DM", "position": "DM", "x": 40, "y": 50 },
+        { "id": "LCM", "position": "CM", "x": 54, "y": 34 },
+        { "id": "LWB", "position": "LWB", "x": 48, "y": 12 },
+        { "id": "RST", "position": "ST", "x": 84, "y": 64 },
+        { "id": "LST", "position": "ST", "x": 84, "y": 36 }
+      ]
+    },
+    {
+      "id": "3-4-3", "format": "11v11", "labels": { "en": "3-4-3" },
+      "slots": [
+        { "id": "GK", "position": "GK", "x": 6, "y": 50 },
+        { "id": "RCB", "position": "CB", "x": 22, "y": 72 },
+        { "id": "CB", "position": "CB", "x": 20, "y": 50 },
+        { "id": "LCB", "position": "CB", "x": 22, "y": 28 },
+        { "id": "RWB", "position": "RWB", "x": 50, "y": 88 },
+        { "id": "RCM", "position": "CM", "x": 46, "y": 62 },
+        { "id": "LCM", "position": "CM", "x": 46, "y": 38 },
+        { "id": "LWB", "position": "LWB", "x": 50, "y": 12 },
+        { "id": "RW", "position": "RW", "x": 76, "y": 80 },
+        { "id": "ST", "position": "ST", "x": 86, "y": 50 },
+        { "id": "LW", "position": "LW", "x": 76, "y": 20 }
+      ]
+    },
+    {
+      "id": "3-4-2-1", "format": "11v11", "labels": { "en": "3-4-2-1" },
+      "slots": [
+        { "id": "GK", "position": "GK", "x": 6, "y": 50 },
+        { "id": "RCB", "position": "CB", "x": 22, "y": 72 },
+        { "id": "CB", "position": "CB", "x": 20, "y": 50 },
+        { "id": "LCB", "position": "CB", "x": 22, "y": 28 },
+        { "id": "RWB", "position": "RWB", "x": 50, "y": 88 },
+        { "id": "RCM", "position": "CM", "x": 46, "y": 62 },
+        { "id": "LCM", "position": "CM", "x": 46, "y": 38 },
+        { "id": "LWB", "position": "LWB", "x": 50, "y": 12 },
+        { "id": "RAM", "position": "AM", "x": 70, "y": 66 },
+        { "id": "LAM", "position": "AM", "x": 70, "y": 34 },
+        { "id": "ST", "position": "ST", "x": 87, "y": 50 }
+      ]
+    },
+    {
+      "id": "3-4-1-2", "format": "11v11", "labels": { "en": "3-4-1-2" },
+      "slots": [
+        { "id": "GK", "position": "GK", "x": 6, "y": 50 },
+        { "id": "RCB", "position": "CB", "x": 22, "y": 72 },
+        { "id": "CB", "position": "CB", "x": 20, "y": 50 },
+        { "id": "LCB", "position": "CB", "x": 22, "y": 28 },
+        { "id": "RWB", "position": "RWB", "x": 50, "y": 88 },
+        { "id": "RCM", "position": "CM", "x": 46, "y": 62 },
+        { "id": "LCM", "position": "CM", "x": 46, "y": 38 },
+        { "id": "LWB", "position": "LWB", "x": 50, "y": 12 },
+        { "id": "AM", "position": "AM", "x": 66, "y": 50 },
+        { "id": "RST", "position": "ST", "x": 84, "y": 64 },
+        { "id": "LST", "position": "ST", "x": 84, "y": 36 }
+      ]
+    },
+    {
+      "id": "5-3-2", "format": "11v11", "labels": { "en": "5-3-2" },
+      "slots": [
+        { "id": "GK", "position": "GK", "x": 6, "y": 50 },
+        { "id": "RWB", "position": "RWB", "x": 30, "y": 88 },
+        { "id": "RCB", "position": "CB", "x": 22, "y": 68 },
+        { "id": "CB", "position": "CB", "x": 20, "y": 50 },
+        { "id": "LCB", "position": "CB", "x": 22, "y": 32 },
+        { "id": "LWB", "position": "LWB", "x": 30, "y": 12 },
+        { "id": "RCM", "position": "CM", "x": 52, "y": 70 },
+        { "id": "CM", "position": "CM", "x": 46, "y": 50 },
+        { "id": "LCM", "position": "CM", "x": 52, "y": 30 },
+        { "id": "RST", "position": "ST", "x": 84, "y": 64 },
+        { "id": "LST", "position": "ST", "x": 84, "y": 36 }
+      ]
+    },
+    {
+      "id": "5-4-1", "format": "11v11", "labels": { "en": "5-4-1" },
+      "slots": [
+        { "id": "GK", "position": "GK", "x": 6, "y": 50 },
+        { "id": "RWB", "position": "RWB", "x": 30, "y": 88 },
+        { "id": "RCB", "position": "CB", "x": 22, "y": 68 },
+        { "id": "CB", "position": "CB", "x": 20, "y": 50 },
+        { "id": "LCB", "position": "CB", "x": 22, "y": 32 },
+        { "id": "LWB", "position": "LWB", "x": 30, "y": 12 },
+        { "id": "RM", "position": "RM", "x": 56, "y": 86 },
+        { "id": "RCM", "position": "CM", "x": 50, "y": 62 },
+        { "id": "LCM", "position": "CM", "x": 50, "y": 38 },
+        { "id": "LM", "position": "LM", "x": 56, "y": 14 },
+        { "id": "ST", "position": "ST", "x": 86, "y": 50 }
+      ]
+    }
+  ]
+}

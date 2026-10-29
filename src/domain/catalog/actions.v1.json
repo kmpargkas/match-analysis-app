@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "groups": [
+    {"id": "passing", "labels": {"en": "Passing"}},
+    {"id": "shooting", "labels": {"en": "Shooting"}},
+    {"id": "on_ball", "labels": {"en": "On ball"}},
+    {"id": "errors", "labels": {"en": "Errors"}},
+    {"id": "defending", "labels": {"en": "Defending"}},
+    {"id": "duels", "labels": {"en": "Duels"}},
+    {"id": "fouls", "labels": {"en": "Fouls"}},
+    {"id": "goalkeeper", "labels": {"en": "Goalkeeper"}},
+    {"id": "match", "labels": {"en": "Match"}, "more": true}
+  ],
+  "labels": {
+    "outcomes": {"complete": {"en": "Complete"}, "incomplete": {"en": "Incomplete"}, "goal": {"en": "Goal"}, "saved": {"en": "Saved"}, "off_target": {"en": "Off target"}, "blocked": {"en": "Blocked"}, "woodwork": {"en": "Woodwork"}, "success": {"en": "Success"}, "fail": {"en": "Fail"}, "error": {"en": "Error"}, "led_to_attempt": {"en": "Led to attempt"}, "led_to_goal": {"en": "Led to goal"}, "won": {"en": "Won"}, "lost": {"en": "Lost"}, "committed": {"en": "Committed"}, "yellow": {"en": "Yellow"}, "second_yellow": {"en": "Second yellow"}, "red": {"en": "Red"}},
+    "attributes": {"chance": {"en": "Chance"}, "bodyPart": {"en": "Body part"}, "situation": {"en": "Situation"}, "bigChance": {"en": "Big chance"}, "clearance": {"en": "Clearance"}, "blocked": {"en": "Blocked"}, "penalty": {"en": "Penalty"}, "handling": {"en": "Handling"}},
+    "options": {"key_pass": {"en": "Key pass"}, "assist": {"en": "Assist"}, "right": {"en": "Right"}, "left": {"en": "Left"}, "head": {"en": "Head"}, "other": {"en": "Other"}, "open_play": {"en": "Open play"}, "corner": {"en": "Corner"}, "free_kick": {"en": "Free kick"}, "penalty": {"en": "Penalty"}, "throw_in": {"en": "Throw-in"}, "headed": {"en": "Headed"}, "ground": {"en": "Ground"}, "shot": {"en": "Shot"}, "cross": {"en": "Cross"}, "pass": {"en": "Pass"}, "won": {"en": "Won"}, "conceded": {"en": "Conceded"}, "caught": {"en": "Caught"}, "parried": {"en": "Parried"}}
+  },
+  "types": [
+    {"id": "pass", "category": "passing", "labels": {"en": "Pass"}, "outcomes": ["complete", "incomplete"], "attributes": [{"key": "chance", "required": false, "options": ["key_pass", "assist"]}], "location": "line", "needsPlayer": true, "countsAsTouch": true, "buttons": [{"outcome": "complete", "labels": {"en": "Pass ✓"}}, {"outcome": "incomplete", "labels": {"en": "Pass ✗"}}]},
+    {"id": "cross", "category": "passing", "labels": {"en": "Cross"}, "outcomes": ["complete", "incomplete"], "attributes": [{"key": "chance", "required": false, "options": ["key_pass", "assist"]}], "location": "line", "needsPlayer": true, "countsAsTouch": true, "buttons": [{"outcome": "complete", "labels": {"en": "Cross ✓"}}, {"outcome": "incomplete", "labels": {"en": "Cross ✗"}}]},
+    {"id": "shot", "category": "shooting", "labels": {"en": "Shot"}, "outcomes": ["goal", "saved", "off_target", "blocked", "woodwork"], "attributes": [{"key": "bodyPart", "required": true, "options": ["right", "left", "head", "other"]}, {"key": "situation", "required": false, "options": ["open_play", "corner", "free_kick", "penalty", "throw_in"]}, {"key": "bigChance", "required": false, "options": []}], "location": "point", "needsPlayer": true, "countsAsTouch": true, "buttons": [{"outcome": "goal", "labels": {"en": "Goal"}}, {"outcome": "saved", "labels": {"en": "Saved"}}, {"outcome": "off_target", "labels": {"en": "Off target"}}, {"outcome": "blocked", "labels": {"en": "Blocked"}}]},
+    {"id": "dribble", "category": "on_ball", "labels": {"en": "Dribble"}, "outcomes": ["success", "fail"], "attributes": [], "location": "point", "needsPlayer": true, "countsAsTouch": true, "buttons": [{"outcome": "success", "labels": {"en": "Dribble ✓"}}, {"outcome": "fail", "labels": {"en": "Dribble ✗"}}]},
+    {"id": "offside", "category": "on_ball", "labels": {"en": "Offside"}, "outcomes": [], "attributes": [], "location": "point", "needsPlayer": true, "countsAsTouch": false},
+    {"id": "error", "category": "errors", "labels": {"en": "Error"}, "outcomes": ["error", "led_to_attempt", "led_to_goal"], "attributes": [], "location": "point", "needsPlayer": true, "countsAsTouch": true, "buttons": [{"outcome": "error", "labels": {"en": "Error"}}]},
+    {"id": "own_goal", "category": "errors", "labels": {"en": "Own goal"}, "outcomes": [], "attributes": [], "location": "point", "needsPlayer": true, "countsAsTouch": true},
+    {"id": "tackle", "category": "defending", "labels": {"en": "Tackle"}, "outcomes": ["won", "lost"], "attributes": [], "location": "point", "needsPlayer": true, "countsAsTouch": {"outcomes": ["won"]}, "buttons": [{"outcome": "won", "labels": {"en": "Tackle ✓"}}, {"outcome": "lost", "labels": {"en": "Tackle ✗"}}]},
+    {"id": "interception", "category": "defending", "labels": {"en": "Interception"}, "outcomes": [], "attributes": [], "location": "point", "needsPlayer": true, "countsAsTouch": true},
+    {"id": "recovery", "category": "defending", "labels": {"en": "Recovery"}, "outcomes": [], "attributes": [], "location": "point", "needsPlayer": true, "countsAsTouch": true},
+    {"id": "clearance", "category": "defending", "labels": {"en": "Clearance"}, "outcomes": [], "attributes": [{"key": "clearance", "required": false, "options": ["headed", "ground"], "default": "ground"}], "location": "point", "needsPlayer": true, "countsAsTouch": true},
+    {"id": "block", "category": "defending", "labels": {"en": "Block"}, "outcomes": [], "attributes": [{"key": "blocked", "required": false, "options": ["shot", "cross", "pass"], "default": "shot"}], "location": "point", "needsPlayer": true, "countsAsTouch": true},
+    {"id": "dribbled_past", "category": "defending", "labels": {"en": "Dribbled past"}, "outcomes": [], "attributes": [], "location": "point", "needsPlayer": true, "countsAsTouch": false},
+    {"id": "duel_ground", "category": "duels", "labels": {"en": "Ground duel"}, "outcomes": ["won", "lost"], "attributes": [], "location": "point", "needsPlayer": true, "countsAsTouch": false, "buttons": [{"outcome": "won", "labels": {"en": "Ground ✓"}}, {"outcome": "lost", "labels": {"en": "Ground ✗"}}]},
+    {"id": "duel_aerial", "category": "duels", "labels": {"en": "Aerial duel"}, "outcomes": ["won", "lost"], "attributes": [], "location": "point", "needsPlayer": true, "countsAsTouch": {"outcomes": ["won"]}, "buttons": [{"outcome": "won", "labels": {"en": "Aerial ✓"}}, {"outcome": "lost", "labels": {"en": "Aerial ✗"}}]},
+    {"id": "foul", "category": "fouls", "labels": {"en": "Foul"}, "outcomes": ["won", "committed"], "attributes": [{"key": "penalty", "required": false, "options": ["won", "conceded"]}], "location": "point", "needsPlayer": true, "countsAsTouch": false, "buttons": [{"outcome": "won", "labels": {"en": "Foul won"}}, {"outcome": "committed", "labels": {"en": "Foul committed"}}]},
+    {"id": "gk_save", "category": "goalkeeper", "labels": {"en": "Save"}, "outcomes": [], "attributes": [{"key": "handling", "required": false, "options": ["caught", "parried"]}, {"key": "penalty", "required": false, "options": []}], "location": "point", "needsPlayer": true, "countsAsTouch": true},
+    {"id": "gk_claim", "category": "goalkeeper", "labels": {"en": "Claim"}, "outcomes": ["success", "fail"], "attributes": [], "location": "point", "needsPlayer": true, "countsAsTouch": true},
+    {"id": "gk_punch", "category": "goalkeeper", "labels": {"en": "Punch"}, "outcomes": [], "attributes": [], "location": "point", "needsPlayer": true, "countsAsTouch": true},
+    {"id": "gk_sweeper", "category": "goalkeeper", "labels": {"en": "Sweeper"}, "outcomes": ["success", "fail"], "attributes": [], "location": "point", "needsPlayer": true, "countsAsTouch": true},
+    {"id": "card", "category": "match", "labels": {"en": "Card"}, "outcomes": ["yellow", "second_yellow", "red"], "attributes": [], "location": "none", "needsPlayer": true, "countsAsTouch": false, "buttons": [{"outcome": "yellow", "labels": {"en": "Yellow card"}}, {"outcome": "red", "labels": {"en": "Red card"}}]},
+    {"id": "substitution", "category": "match", "labels": {"en": "Substitution"}, "outcomes": [], "attributes": [], "location": "none", "needsPlayer": true, "needsRelatedPlayer": true, "countsAsTouch": false}
+  ]
+}

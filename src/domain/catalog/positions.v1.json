@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "positions": [
+    { "id": "GK", "line": "goalkeeper", "labels": { "en": "Goalkeeper" }, "x": 6, "y": 50 },
+    { "id": "RB", "line": "defence", "labels": { "en": "Right back" }, "x": 24, "y": 84 },
+    { "id": "CB", "line": "defence", "labels": { "en": "Centre back" }, "x": 22, "y": 50 },
+    { "id": "LB", "line": "defence", "labels": { "en": "Left back" }, "x": 24, "y": 16 },
+    { "id": "RWB", "line": "defence", "labels": { "en": "Right wing-back" }, "x": 39, "y": 91 },
+    { "id": "LWB", "line": "defence", "labels": { "en": "Left wing-back" }, "x": 39, "y": 9 },
+    { "id": "DM", "line": "midfield", "labels": { "en": "Defensive midfielder" }, "x": 39, "y": 50 },
+    { "id": "RM", "line": "midfield", "labels": { "en": "Right midfielder" }, "x": 59, "y": 82 },
+    { "id": "CM", "line": "midfield", "labels": { "en": "Central midfielder" }, "x": 54, "y": 50 },
+    { "id": "LM", "line": "midfield", "labels": { "en": "Left midfielder" }, "x": 59, "y": 18 },
+    { "id": "AM", "line": "midfield", "labels": { "en": "Attacking midfielder" }, "x": 69, "y": 50 },
+    { "id": "RW", "line": "attack", "labels": { "en": "Right winger" }, "x": 80, "y": 84 },
+    { "id": "LW", "line": "attack", "labels": { "en": "Left winger" }, "x": 80, "y": 16 },
+    { "id": "ST", "line": "attack", "labels": { "en": "Striker" }, "x": 87, "y": 50 }
+  ]
+}
