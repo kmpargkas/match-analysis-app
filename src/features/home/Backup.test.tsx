@@ -83,7 +83,9 @@ describe('JSON backup on Home', () => {
   });
 
   it('says how long ago the last backup was', async () => {
-    files.lastBackupAt = new Date(Date.now() - 12 * 86_400_000).toISOString();
+    const twelveDaysAgo = new Date();
+    twelveDaysAgo.setDate(twelveDaysAgo.getDate() - 12);
+    files.lastBackupAt = twelveDaysAgo.toISOString();
     await seed(repos);
     renderHome();
     expect(await screen.findByText('Last backup: 12 days ago')).toBeInTheDocument();
